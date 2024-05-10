@@ -1,0 +1,3 @@
+const action = {
+	type: 'LOGIN',
+};

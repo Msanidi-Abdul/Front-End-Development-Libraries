@@ -1,0 +1,12 @@
+#awesome {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+
+div {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */

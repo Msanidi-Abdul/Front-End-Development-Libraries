@@ -1,0 +1,16 @@
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+}
+
+#awesome {
+	width: 150px;
+	height: 150px;
+	background-color: green;
+}
+
+div {
+	@include border-radius(15px);
+}
